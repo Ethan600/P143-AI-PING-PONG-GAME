@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+    border: 5px solid cyan;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 2px ridge white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+#playGame{
+    font-family: 'Rubik Glitch', cursive;
+    color: beige;
+    font-size: 20px;
+}
+
+#rotate{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas{
+    box-shadow: 5px 5px 10px darkslategray;
+    border: 5px double lightblue;
+    border-radius: 20px;
+}
