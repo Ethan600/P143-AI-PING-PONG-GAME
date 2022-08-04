@@ -53,11 +53,11 @@ function modelLoaded(){
 
 function gotPoses(results){
   if(results.length > 0){
-    rightHandWristX = result[0].pose.rightWrist.x;
-    rightHandWristY = result[0].pose.rightWrist.y;
+    rightHandWristX = results[0].pose.rightWrist.x;
+    rightHandWristY = results[0].pose.rightWrist.y;
     console.log("Right hand wrist's x = " + rightHandWristX + "and y =" + rightHandWristY);
 
-    scoreRightWrist = result[0].pose.keypoints[10].score;
+    scoreRightWrist = results[0].pose.keypoints[10].score;
     console.log("score of right wrist =" + scoreRightWrist);
   }
 }
